@@ -1,0 +1,2500 @@
+{
+  "ind_33497013": {
+    "task_id": "ind_33497013",
+    "type": "independent",
+    "created_time": 36.0,
+    "vehicle": "3",
+    "size_bytes": 252217,
+    "cpu_cost": 68685871.60282332,
+    "critical": false,
+    "deadline": 219.25909513425336
+  },
+  "ind_d92a7065": {
+    "task_id": "ind_d92a7065",
+    "type": "independent",
+    "created_time": 41.0,
+    "vehicle": "1",
+    "size_bytes": 120001,
+    "cpu_cost": 52821109.44634619,
+    "critical": true,
+    "deadline": 46.9365201048495
+  },
+  "ind_41796a89": {
+    "task_id": "ind_41796a89",
+    "type": "independent",
+    "created_time": 52.0,
+    "vehicle": "5",
+    "size_bytes": 224171,
+    "cpu_cost": 34218025.313104644,
+    "critical": false,
+    "deadline": 182.36797590992273
+  },
+  "ind_a99c80ec": {
+    "task_id": "ind_a99c80ec",
+    "type": "independent",
+    "created_time": 54.0,
+    "vehicle": "5",
+    "size_bytes": 239804,
+    "cpu_cost": 50356603.028585605,
+    "critical": false,
+    "deadline": 109.55099457527129
+  },
+  "ind_5b0e091c": {
+    "task_id": "ind_5b0e091c",
+    "type": "independent",
+    "created_time": 56.0,
+    "vehicle": "2",
+    "size_bytes": 154271,
+    "cpu_cost": 27655556.077995807,
+    "critical": false,
+    "deadline": 224.69107257529632
+  },
+  "ind_a29805af": {
+    "task_id": "ind_a29805af",
+    "type": "independent",
+    "created_time": 75.0,
+    "vehicle": "7",
+    "size_bytes": 177121,
+    "cpu_cost": 49834507.17506864,
+    "critical": false,
+    "deadline": 227.4590884995764
+  },
+  "ind_0fcc68f1": {
+    "task_id": "ind_0fcc68f1",
+    "type": "independent",
+    "created_time": 76.0,
+    "vehicle": "7",
+    "size_bytes": 132725,
+    "cpu_cost": 5902001.95150937,
+    "critical": true,
+    "deadline": 77.799951672806
+  },
+  "dep_48d34b45": {
+    "task_id": "dep_48d34b45",
+    "type": "dependent",
+    "created_time": 98.0,
+    "vehicle": "4",
+    "num_subtasks": 11,
+    "subtasks": {
+      "s_c4d5c45a": {
+        "node_name": "n0",
+        "cpu_cost": 283481972.8476259,
+        "output_bytes": 1958115
+      },
+      "s_002bf2a4": {
+        "node_name": "n1",
+        "cpu_cost": 49044795.492025204,
+        "output_bytes": 1910069
+      },
+      "s_f1a99ac0": {
+        "node_name": "n2",
+        "cpu_cost": 68964147.9608506,
+        "output_bytes": 4930073
+      },
+      "s_306404a7": {
+        "node_name": "n3",
+        "cpu_cost": 399187156.1206396,
+        "output_bytes": 1417456
+      },
+      "s_b3f3aaae": {
+        "node_name": "n4",
+        "cpu_cost": 289125399.5166246,
+        "output_bytes": 496449
+      },
+      "s_87d2864b": {
+        "node_name": "n5",
+        "cpu_cost": 84591595.23922342,
+        "output_bytes": 4977076
+      },
+      "s_584822df": {
+        "node_name": "n6",
+        "cpu_cost": 77918789.12779409,
+        "output_bytes": 2197126
+      },
+      "s_308d89d8": {
+        "node_name": "n7",
+        "cpu_cost": 464292031.13537997,
+        "output_bytes": 2089767
+      },
+      "s_eeed4ecd": {
+        "node_name": "n8",
+        "cpu_cost": 66857796.436348006,
+        "output_bytes": 1487603
+      },
+      "s_24236aca": {
+        "node_name": "n9",
+        "cpu_cost": 294216543.95312023,
+        "output_bytes": 3598405
+      },
+      "s_6374dce9": {
+        "node_name": "n10",
+        "cpu_cost": 405961580.2148378,
+        "output_bytes": 877987
+      }
+    },
+    "edges": [
+      {
+        "from": "s_c4d5c45a",
+        "to": "s_002bf2a4",
+        "comm_bytes": 1674996
+      },
+      {
+        "from": "s_c4d5c45a",
+        "to": "s_308d89d8",
+        "comm_bytes": 2574116
+      },
+      {
+        "from": "s_002bf2a4",
+        "to": "s_f1a99ac0",
+        "comm_bytes": 1822867
+      },
+      {
+        "from": "s_002bf2a4",
+        "to": "s_87d2864b",
+        "comm_bytes": 2992762
+      },
+      {
+        "from": "s_002bf2a4",
+        "to": "s_584822df",
+        "comm_bytes": 1992390
+      },
+      {
+        "from": "s_002bf2a4",
+        "to": "s_eeed4ecd",
+        "comm_bytes": 1716812
+      },
+      {
+        "from": "s_002bf2a4",
+        "to": "s_24236aca",
+        "comm_bytes": 938405
+      },
+      {
+        "from": "s_306404a7",
+        "to": "s_87d2864b",
+        "comm_bytes": 3990925
+      },
+      {
+        "from": "s_306404a7",
+        "to": "s_584822df",
+        "comm_bytes": 2782004
+      },
+      {
+        "from": "s_306404a7",
+        "to": "s_308d89d8",
+        "comm_bytes": 4864378
+      },
+      {
+        "from": "s_b3f3aaae",
+        "to": "s_6374dce9",
+        "comm_bytes": 2170850
+      },
+      {
+        "from": "s_87d2864b",
+        "to": "s_584822df",
+        "comm_bytes": 4262415
+      },
+      {
+        "from": "s_87d2864b",
+        "to": "s_308d89d8",
+        "comm_bytes": 1747763
+      },
+      {
+        "from": "s_584822df",
+        "to": "s_6374dce9",
+        "comm_bytes": 1820209
+      },
+      {
+        "from": "s_308d89d8",
+        "to": "s_24236aca",
+        "comm_bytes": 2846998
+      },
+      {
+        "from": "s_24236aca",
+        "to": "s_6374dce9",
+        "comm_bytes": 302213
+      }
+    ],
+    "critical": false,
+    "deadline": 1881.037359137937
+  },
+  "dep_25825772": {
+    "task_id": "dep_25825772",
+    "type": "dependent",
+    "created_time": 116.0,
+    "vehicle": "7",
+    "num_subtasks": 12,
+    "subtasks": {
+      "s_0f6b6c90": {
+        "node_name": "n0",
+        "cpu_cost": 327299669.77273184,
+        "output_bytes": 2517917
+      },
+      "s_cdb16a0a": {
+        "node_name": "n1",
+        "cpu_cost": 169415696.89991772,
+        "output_bytes": 2053976
+      },
+      "s_5de32591": {
+        "node_name": "n2",
+        "cpu_cost": 45070372.60765753,
+        "output_bytes": 2785142
+      },
+      "s_970f0a69": {
+        "node_name": "n3",
+        "cpu_cost": 309983779.7686546,
+        "output_bytes": 4593183
+      },
+      "s_0ba87711": {
+        "node_name": "n4",
+        "cpu_cost": 37533297.34700026,
+        "output_bytes": 2645505
+      },
+      "s_fad99f45": {
+        "node_name": "n5",
+        "cpu_cost": 437311748.5252294,
+        "output_bytes": 1591420
+      },
+      "s_9183e6e4": {
+        "node_name": "n6",
+        "cpu_cost": 365749841.9681957,
+        "output_bytes": 4115812
+      },
+      "s_419d7a82": {
+        "node_name": "n7",
+        "cpu_cost": 419577470.8564024,
+        "output_bytes": 1849386
+      },
+      "s_801dd2a4": {
+        "node_name": "n8",
+        "cpu_cost": 70008431.93593553,
+        "output_bytes": 3404316
+      },
+      "s_f7134dff": {
+        "node_name": "n9",
+        "cpu_cost": 467494679.85780644,
+        "output_bytes": 882792
+      },
+      "s_3b74ad7e": {
+        "node_name": "n10",
+        "cpu_cost": 462807522.9132117,
+        "output_bytes": 2310632
+      },
+      "s_412da1cf": {
+        "node_name": "n11",
+        "cpu_cost": 339072439.39377844,
+        "output_bytes": 349486
+      }
+    },
+    "edges": [
+      {
+        "from": "s_0f6b6c90",
+        "to": "s_cdb16a0a",
+        "comm_bytes": 4624772
+      },
+      {
+        "from": "s_0f6b6c90",
+        "to": "s_0ba87711",
+        "comm_bytes": 2650975
+      },
+      {
+        "from": "s_0f6b6c90",
+        "to": "s_fad99f45",
+        "comm_bytes": 4467658
+      },
+      {
+        "from": "s_0f6b6c90",
+        "to": "s_419d7a82",
+        "comm_bytes": 1587996
+      },
+      {
+        "from": "s_cdb16a0a",
+        "to": "s_5de32591",
+        "comm_bytes": 2503331
+      },
+      {
+        "from": "s_cdb16a0a",
+        "to": "s_f7134dff",
+        "comm_bytes": 619228
+      },
+      {
+        "from": "s_cdb16a0a",
+        "to": "s_3b74ad7e",
+        "comm_bytes": 1261304
+      },
+      {
+        "from": "s_970f0a69",
+        "to": "s_419d7a82",
+        "comm_bytes": 3615377
+      },
+      {
+        "from": "s_970f0a69",
+        "to": "s_801dd2a4",
+        "comm_bytes": 1186344
+      },
+      {
+        "from": "s_970f0a69",
+        "to": "s_3b74ad7e",
+        "comm_bytes": 4014879
+      },
+      {
+        "from": "s_0ba87711",
+        "to": "s_419d7a82",
+        "comm_bytes": 3321875
+      },
+      {
+        "from": "s_0ba87711",
+        "to": "s_3b74ad7e",
+        "comm_bytes": 1281179
+      },
+      {
+        "from": "s_0ba87711",
+        "to": "s_412da1cf",
+        "comm_bytes": 2927889
+      },
+      {
+        "from": "s_fad99f45",
+        "to": "s_419d7a82",
+        "comm_bytes": 2046072
+      },
+      {
+        "from": "s_fad99f45",
+        "to": "s_3b74ad7e",
+        "comm_bytes": 1611524
+      },
+      {
+        "from": "s_fad99f45",
+        "to": "s_412da1cf",
+        "comm_bytes": 4631319
+      },
+      {
+        "from": "s_9183e6e4",
+        "to": "s_801dd2a4",
+        "comm_bytes": 4264078
+      },
+      {
+        "from": "s_9183e6e4",
+        "to": "s_412da1cf",
+        "comm_bytes": 761672
+      },
+      {
+        "from": "s_419d7a82",
+        "to": "s_f7134dff",
+        "comm_bytes": 768293
+      }
+    ],
+    "critical": false,
+    "deadline": 1155.1593249666355
+  },
+  "ind_58c38fec": {
+    "task_id": "ind_58c38fec",
+    "type": "independent",
+    "created_time": 118.0,
+    "vehicle": "5",
+    "size_bytes": 142145,
+    "cpu_cost": 75172827.78265825,
+    "critical": false,
+    "deadline": 250.12250385208253
+  },
+  "ind_6d72fc4f": {
+    "task_id": "ind_6d72fc4f",
+    "type": "independent",
+    "created_time": 120.0,
+    "vehicle": "4",
+    "size_bytes": 271046,
+    "cpu_cost": 5513184.792674463,
+    "critical": true,
+    "deadline": 122.28518254166951
+  },
+  "dep_65719f3e": {
+    "task_id": "dep_65719f3e",
+    "type": "dependent",
+    "created_time": 126.0,
+    "vehicle": "11",
+    "num_subtasks": 11,
+    "subtasks": {
+      "s_fe43fe26": {
+        "node_name": "n0",
+        "cpu_cost": 18586132.09848523,
+        "output_bytes": 399928
+      },
+      "s_bb6a3e77": {
+        "node_name": "n1",
+        "cpu_cost": 249334184.61586824,
+        "output_bytes": 2676363
+      },
+      "s_2f10944f": {
+        "node_name": "n2",
+        "cpu_cost": 221373859.65515703,
+        "output_bytes": 4670763
+      },
+      "s_80dda153": {
+        "node_name": "n3",
+        "cpu_cost": 266137405.0296124,
+        "output_bytes": 765682
+      },
+      "s_19870749": {
+        "node_name": "n4",
+        "cpu_cost": 408420624.93378454,
+        "output_bytes": 1726925
+      },
+      "s_24317511": {
+        "node_name": "n5",
+        "cpu_cost": 422013010.4650445,
+        "output_bytes": 4305268
+      },
+      "s_30b24dc7": {
+        "node_name": "n6",
+        "cpu_cost": 271620247.94452095,
+        "output_bytes": 3092914
+      },
+      "s_04e52844": {
+        "node_name": "n7",
+        "cpu_cost": 163318382.38163528,
+        "output_bytes": 4114993
+      },
+      "s_3a9b24d1": {
+        "node_name": "n8",
+        "cpu_cost": 414429428.38812834,
+        "output_bytes": 3717455
+      },
+      "s_66bfcdef": {
+        "node_name": "n9",
+        "cpu_cost": 167493948.63273802,
+        "output_bytes": 2714533
+      },
+      "s_78f62aaf": {
+        "node_name": "n10",
+        "cpu_cost": 162400762.07138878,
+        "output_bytes": 3047986
+      }
+    },
+    "edges": [
+      {
+        "from": "s_fe43fe26",
+        "to": "s_bb6a3e77",
+        "comm_bytes": 2908314
+      },
+      {
+        "from": "s_fe43fe26",
+        "to": "s_24317511",
+        "comm_bytes": 1726597
+      },
+      {
+        "from": "s_bb6a3e77",
+        "to": "s_24317511",
+        "comm_bytes": 3261224
+      },
+      {
+        "from": "s_bb6a3e77",
+        "to": "s_66bfcdef",
+        "comm_bytes": 3416831
+      },
+      {
+        "from": "s_bb6a3e77",
+        "to": "s_78f62aaf",
+        "comm_bytes": 1311216
+      },
+      {
+        "from": "s_2f10944f",
+        "to": "s_30b24dc7",
+        "comm_bytes": 2225723
+      },
+      {
+        "from": "s_80dda153",
+        "to": "s_04e52844",
+        "comm_bytes": 241314
+      },
+      {
+        "from": "s_19870749",
+        "to": "s_24317511",
+        "comm_bytes": 525960
+      },
+      {
+        "from": "s_19870749",
+        "to": "s_3a9b24d1",
+        "comm_bytes": 2276388
+      },
+      {
+        "from": "s_30b24dc7",
+        "to": "s_04e52844",
+        "comm_bytes": 929314
+      },
+      {
+        "from": "s_30b24dc7",
+        "to": "s_66bfcdef",
+        "comm_bytes": 2342231
+      }
+    ],
+    "critical": true,
+    "deadline": 194.59647667563223
+  },
+  "dep_7019a7e3": {
+    "task_id": "dep_7019a7e3",
+    "type": "dependent",
+    "created_time": 135.0,
+    "vehicle": "10",
+    "num_subtasks": 10,
+    "subtasks": {
+      "s_1a30d089": {
+        "node_name": "n0",
+        "cpu_cost": 432173742.1501142,
+        "output_bytes": 3698211
+      },
+      "s_20beaca3": {
+        "node_name": "n1",
+        "cpu_cost": 81249084.87858124,
+        "output_bytes": 3122446
+      },
+      "s_306b552d": {
+        "node_name": "n2",
+        "cpu_cost": 270319755.87860847,
+        "output_bytes": 4254903
+      },
+      "s_5b9cd697": {
+        "node_name": "n3",
+        "cpu_cost": 80849194.69245349,
+        "output_bytes": 2684693
+      },
+      "s_146039e8": {
+        "node_name": "n4",
+        "cpu_cost": 398404861.37758356,
+        "output_bytes": 2343176
+      },
+      "s_a644c0a2": {
+        "node_name": "n5",
+        "cpu_cost": 487652293.21894085,
+        "output_bytes": 2204790
+      },
+      "s_8296c9d2": {
+        "node_name": "n6",
+        "cpu_cost": 142419270.94247177,
+        "output_bytes": 1315286
+      },
+      "s_ac80bcd0": {
+        "node_name": "n7",
+        "cpu_cost": 231494111.03816336,
+        "output_bytes": 2200327
+      },
+      "s_bb3dd966": {
+        "node_name": "n8",
+        "cpu_cost": 213887475.36620417,
+        "output_bytes": 4511884
+      },
+      "s_71a8f7f5": {
+        "node_name": "n9",
+        "cpu_cost": 315323124.6952392,
+        "output_bytes": 904949
+      }
+    },
+    "edges": [
+      {
+        "from": "s_1a30d089",
+        "to": "s_20beaca3",
+        "comm_bytes": 4415363
+      },
+      {
+        "from": "s_1a30d089",
+        "to": "s_306b552d",
+        "comm_bytes": 3213152
+      },
+      {
+        "from": "s_1a30d089",
+        "to": "s_5b9cd697",
+        "comm_bytes": 1641278
+      },
+      {
+        "from": "s_1a30d089",
+        "to": "s_a644c0a2",
+        "comm_bytes": 2562073
+      },
+      {
+        "from": "s_20beaca3",
+        "to": "s_5b9cd697",
+        "comm_bytes": 4244023
+      },
+      {
+        "from": "s_20beaca3",
+        "to": "s_ac80bcd0",
+        "comm_bytes": 3068342
+      },
+      {
+        "from": "s_20beaca3",
+        "to": "s_71a8f7f5",
+        "comm_bytes": 3032274
+      },
+      {
+        "from": "s_306b552d",
+        "to": "s_ac80bcd0",
+        "comm_bytes": 1975571
+      },
+      {
+        "from": "s_306b552d",
+        "to": "s_71a8f7f5",
+        "comm_bytes": 4376456
+      },
+      {
+        "from": "s_5b9cd697",
+        "to": "s_a644c0a2",
+        "comm_bytes": 4410840
+      },
+      {
+        "from": "s_5b9cd697",
+        "to": "s_71a8f7f5",
+        "comm_bytes": 1989315
+      },
+      {
+        "from": "s_146039e8",
+        "to": "s_a644c0a2",
+        "comm_bytes": 3954996
+      },
+      {
+        "from": "s_146039e8",
+        "to": "s_8296c9d2",
+        "comm_bytes": 3704714
+      },
+      {
+        "from": "s_146039e8",
+        "to": "s_bb3dd966",
+        "comm_bytes": 2751572
+      },
+      {
+        "from": "s_a644c0a2",
+        "to": "s_bb3dd966",
+        "comm_bytes": 2676611
+      },
+      {
+        "from": "s_8296c9d2",
+        "to": "s_bb3dd966",
+        "comm_bytes": 2305504
+      }
+    ],
+    "critical": false,
+    "deadline": 1280.6363514721038
+  },
+  "dep_78dc08b0": {
+    "task_id": "dep_78dc08b0",
+    "type": "dependent",
+    "created_time": 144.0,
+    "vehicle": "7",
+    "num_subtasks": 5,
+    "subtasks": {
+      "s_f3f2c6d1": {
+        "node_name": "n0",
+        "cpu_cost": 283842400.71317506,
+        "output_bytes": 2900660
+      },
+      "s_ffcaa58d": {
+        "node_name": "n1",
+        "cpu_cost": 447670696.8966278,
+        "output_bytes": 4971325
+      },
+      "s_595c9efc": {
+        "node_name": "n2",
+        "cpu_cost": 62523993.59381558,
+        "output_bytes": 2838567
+      },
+      "s_18931f94": {
+        "node_name": "n3",
+        "cpu_cost": 43426222.73087357,
+        "output_bytes": 2862031
+      },
+      "s_9f16c3c0": {
+        "node_name": "n4",
+        "cpu_cost": 82080809.7199948,
+        "output_bytes": 3697413
+      }
+    },
+    "edges": [
+      {
+        "from": "s_ffcaa58d",
+        "to": "s_18931f94",
+        "comm_bytes": 4332348
+      },
+      {
+        "from": "s_18931f94",
+        "to": "s_9f16c3c0",
+        "comm_bytes": 1412677
+      }
+    ],
+    "critical": false,
+    "deadline": 464.7101140073918
+  },
+  "ind_88f98d57": {
+    "task_id": "ind_88f98d57",
+    "type": "independent",
+    "created_time": 144.0,
+    "vehicle": "9",
+    "size_bytes": 318817,
+    "cpu_cost": 29960508.43884624,
+    "critical": true,
+    "deadline": 151.06291253899008
+  },
+  "ind_a4a14acc": {
+    "task_id": "ind_a4a14acc",
+    "type": "independent",
+    "created_time": 157.0,
+    "vehicle": "14",
+    "size_bytes": 96917,
+    "cpu_cost": 20939554.14153059,
+    "critical": false,
+    "deadline": 348.4825444285848
+  },
+  "ind_993a6ad2": {
+    "task_id": "ind_993a6ad2",
+    "type": "independent",
+    "created_time": 168.0,
+    "vehicle": "8",
+    "size_bytes": 79360,
+    "cpu_cost": 91327295.04050241,
+    "critical": false,
+    "deadline": 249.1243003143659
+  },
+  "ind_accb65f9": {
+    "task_id": "ind_accb65f9",
+    "type": "independent",
+    "created_time": 175.0,
+    "vehicle": "14",
+    "size_bytes": 358371,
+    "cpu_cost": 72994333.73034821,
+    "critical": false,
+    "deadline": 200.27417315033136
+  },
+  "ind_6e8422e5": {
+    "task_id": "ind_6e8422e5",
+    "type": "independent",
+    "created_time": 179.0,
+    "vehicle": "12",
+    "size_bytes": 194760,
+    "cpu_cost": 84794732.0062086,
+    "critical": false,
+    "deadline": 342.56203136101294
+  },
+  "ind_8d9ee53a": {
+    "task_id": "ind_8d9ee53a",
+    "type": "independent",
+    "created_time": 182.0,
+    "vehicle": "17",
+    "size_bytes": 346559,
+    "cpu_cost": 71812089.64540012,
+    "critical": true,
+    "deadline": 183.4303280146537
+  },
+  "dep_0c5fad54": {
+    "task_id": "dep_0c5fad54",
+    "type": "dependent",
+    "created_time": 191.0,
+    "vehicle": "19",
+    "num_subtasks": 9,
+    "subtasks": {
+      "s_e73b8913": {
+        "node_name": "n0",
+        "cpu_cost": 109021974.4627116,
+        "output_bytes": 3159783
+      },
+      "s_971e8093": {
+        "node_name": "n1",
+        "cpu_cost": 109593387.53352298,
+        "output_bytes": 3924153
+      },
+      "s_8b34730e": {
+        "node_name": "n2",
+        "cpu_cost": 209771792.99571332,
+        "output_bytes": 4379037
+      },
+      "s_5a27d591": {
+        "node_name": "n3",
+        "cpu_cost": 131770501.83834977,
+        "output_bytes": 3204338
+      },
+      "s_7d130e0f": {
+        "node_name": "n4",
+        "cpu_cost": 395124869.31076187,
+        "output_bytes": 4061043
+      },
+      "s_ba5412c9": {
+        "node_name": "n5",
+        "cpu_cost": 226888959.49150053,
+        "output_bytes": 4133505
+      },
+      "s_fab4fb5a": {
+        "node_name": "n6",
+        "cpu_cost": 424512954.8529166,
+        "output_bytes": 2138393
+      },
+      "s_bcc2e235": {
+        "node_name": "n7",
+        "cpu_cost": 331965253.4851827,
+        "output_bytes": 3184731
+      },
+      "s_a628ce5b": {
+        "node_name": "n8",
+        "cpu_cost": 288656086.08071434,
+        "output_bytes": 3660083
+      }
+    },
+    "edges": [
+      {
+        "from": "s_e73b8913",
+        "to": "s_8b34730e",
+        "comm_bytes": 1985933
+      },
+      {
+        "from": "s_e73b8913",
+        "to": "s_bcc2e235",
+        "comm_bytes": 2563396
+      },
+      {
+        "from": "s_971e8093",
+        "to": "s_8b34730e",
+        "comm_bytes": 4498444
+      },
+      {
+        "from": "s_971e8093",
+        "to": "s_fab4fb5a",
+        "comm_bytes": 2496045
+      },
+      {
+        "from": "s_971e8093",
+        "to": "s_bcc2e235",
+        "comm_bytes": 1661651
+      },
+      {
+        "from": "s_8b34730e",
+        "to": "s_5a27d591",
+        "comm_bytes": 913053
+      },
+      {
+        "from": "s_8b34730e",
+        "to": "s_7d130e0f",
+        "comm_bytes": 822220
+      },
+      {
+        "from": "s_8b34730e",
+        "to": "s_a628ce5b",
+        "comm_bytes": 3540730
+      },
+      {
+        "from": "s_5a27d591",
+        "to": "s_ba5412c9",
+        "comm_bytes": 2824879
+      },
+      {
+        "from": "s_7d130e0f",
+        "to": "s_ba5412c9",
+        "comm_bytes": 713166
+      },
+      {
+        "from": "s_7d130e0f",
+        "to": "s_a628ce5b",
+        "comm_bytes": 1609952
+      },
+      {
+        "from": "s_fab4fb5a",
+        "to": "s_bcc2e235",
+        "comm_bytes": 532550
+      }
+    ],
+    "critical": false,
+    "deadline": 1115.4263731511408
+  },
+  "ind_70d028d0": {
+    "task_id": "ind_70d028d0",
+    "type": "independent",
+    "created_time": 196.0,
+    "vehicle": "10",
+    "size_bytes": 334609,
+    "cpu_cost": 9129395.463478707,
+    "critical": false,
+    "deadline": 250.17930909427213
+  },
+  "ind_78f6de5f": {
+    "task_id": "ind_78f6de5f",
+    "type": "independent",
+    "created_time": 196.0,
+    "vehicle": "12",
+    "size_bytes": 487016,
+    "cpu_cost": 56777133.12556839,
+    "critical": true,
+    "deadline": 201.9680156989701
+  },
+  "ind_ce251d82": {
+    "task_id": "ind_ce251d82",
+    "type": "independent",
+    "created_time": 198.0,
+    "vehicle": "17",
+    "size_bytes": 225718,
+    "cpu_cost": 83547037.6822507,
+    "critical": false,
+    "deadline": 386.60455940578714
+  },
+  "ind_97de6b3c": {
+    "task_id": "ind_97de6b3c",
+    "type": "independent",
+    "created_time": 223.0,
+    "vehicle": "13",
+    "size_bytes": 217436,
+    "cpu_cost": 94330979.82294229,
+    "critical": true,
+    "deadline": 225.77554676649348
+  },
+  "ind_bc184257": {
+    "task_id": "ind_bc184257",
+    "type": "independent",
+    "created_time": 231.0,
+    "vehicle": "16",
+    "size_bytes": 125217,
+    "cpu_cost": 4441331.060852984,
+    "critical": true,
+    "deadline": 235.30568718286568
+  },
+  "ind_cd5c4d9d": {
+    "task_id": "ind_cd5c4d9d",
+    "type": "independent",
+    "created_time": 231.0,
+    "vehicle": "21",
+    "size_bytes": 465266,
+    "cpu_cost": 10119208.021167532,
+    "critical": false,
+    "deadline": 391.5457085490966
+  },
+  "ind_80ff8de8": {
+    "task_id": "ind_80ff8de8",
+    "type": "independent",
+    "created_time": 232.0,
+    "vehicle": "13",
+    "size_bytes": 190220,
+    "cpu_cost": 7857065.208769195,
+    "critical": true,
+    "deadline": 238.50798483825307
+  },
+  "ind_84c739d1": {
+    "task_id": "ind_84c739d1",
+    "type": "independent",
+    "created_time": 232.0,
+    "vehicle": "23",
+    "size_bytes": 156990,
+    "cpu_cost": 27365206.433966216,
+    "critical": false,
+    "deadline": 344.31832009588743
+  },
+  "ind_608c4385": {
+    "task_id": "ind_608c4385",
+    "type": "independent",
+    "created_time": 233.0,
+    "vehicle": "22",
+    "size_bytes": 409609,
+    "cpu_cost": 30174245.591910537,
+    "critical": false,
+    "deadline": 263.0444914810607
+  },
+  "ind_4bfb338f": {
+    "task_id": "ind_4bfb338f",
+    "type": "independent",
+    "created_time": 234.0,
+    "vehicle": "21",
+    "size_bytes": 321974,
+    "cpu_cost": 67622234.63739601,
+    "critical": false,
+    "deadline": 392.3261334638326
+  },
+  "ind_6c92b44d": {
+    "task_id": "ind_6c92b44d",
+    "type": "independent",
+    "created_time": 236.0,
+    "vehicle": "16",
+    "size_bytes": 163189,
+    "cpu_cost": 38742023.40952745,
+    "critical": false,
+    "deadline": 379.54144335728745
+  },
+  "ind_cb2a35a8": {
+    "task_id": "ind_cb2a35a8",
+    "type": "independent",
+    "created_time": 256.0,
+    "vehicle": "24",
+    "size_bytes": 240429,
+    "cpu_cost": 11666494.008409971,
+    "critical": false,
+    "deadline": 313.2031291526072
+  },
+  "ind_1dd1c554": {
+    "task_id": "ind_1dd1c554",
+    "type": "independent",
+    "created_time": 258.0,
+    "vehicle": "20",
+    "size_bytes": 200738,
+    "cpu_cost": 69185122.75696668,
+    "critical": true,
+    "deadline": 263.37778621408927
+  },
+  "dep_f309fd0f": {
+    "task_id": "dep_f309fd0f",
+    "type": "dependent",
+    "created_time": 259.0,
+    "vehicle": "24",
+    "num_subtasks": 4,
+    "subtasks": {
+      "s_ef2b4325": {
+        "node_name": "n0",
+        "cpu_cost": 263174261.68944836,
+        "output_bytes": 1965686
+      },
+      "s_d6dc3a0b": {
+        "node_name": "n1",
+        "cpu_cost": 152971030.61884695,
+        "output_bytes": 3972110
+      },
+      "s_ef08a4b1": {
+        "node_name": "n2",
+        "cpu_cost": 110289124.7260358,
+        "output_bytes": 925401
+      },
+      "s_8135ecff": {
+        "node_name": "n3",
+        "cpu_cost": 470726489.6337895,
+        "output_bytes": 2289202
+      }
+    },
+    "edges": [
+      {
+        "from": "s_ef2b4325",
+        "to": "s_ef08a4b1",
+        "comm_bytes": 4123609
+      },
+      {
+        "from": "s_d6dc3a0b",
+        "to": "s_ef08a4b1",
+        "comm_bytes": 959384
+      },
+      {
+        "from": "s_d6dc3a0b",
+        "to": "s_8135ecff",
+        "comm_bytes": 415620
+      }
+    ],
+    "critical": false,
+    "deadline": 891.6177453973831
+  },
+  "ind_09ba6dc7": {
+    "task_id": "ind_09ba6dc7",
+    "type": "independent",
+    "created_time": 261.0,
+    "vehicle": "21",
+    "size_bytes": 318252,
+    "cpu_cost": 26135900.712128956,
+    "critical": false,
+    "deadline": 339.9380161783065
+  },
+  "ind_187cff6d": {
+    "task_id": "ind_187cff6d",
+    "type": "independent",
+    "created_time": 261.0,
+    "vehicle": "25",
+    "size_bytes": 423636,
+    "cpu_cost": 12914600.65807642,
+    "critical": true,
+    "deadline": 263.1849808009082
+  },
+  "ind_58390e9a": {
+    "task_id": "ind_58390e9a",
+    "type": "independent",
+    "created_time": 270.0,
+    "vehicle": "21",
+    "size_bytes": 417256,
+    "cpu_cost": 12356067.632092308,
+    "critical": false,
+    "deadline": 451.5893326721113
+  },
+  "ind_d6dce72b": {
+    "task_id": "ind_d6dce72b",
+    "type": "independent",
+    "created_time": 281.0,
+    "vehicle": "20",
+    "size_bytes": 428350,
+    "cpu_cost": 1918371.4118222925,
+    "critical": true,
+    "deadline": 284.63277673660673
+  },
+  "dep_9d7e99ff": {
+    "task_id": "dep_9d7e99ff",
+    "type": "dependent",
+    "created_time": 284.0,
+    "vehicle": "17",
+    "num_subtasks": 8,
+    "subtasks": {
+      "s_ea22db60": {
+        "node_name": "n0",
+        "cpu_cost": 398910382.2568323,
+        "output_bytes": 1202545
+      },
+      "s_3767cd6a": {
+        "node_name": "n1",
+        "cpu_cost": 165435532.5143518,
+        "output_bytes": 4407455
+      },
+      "s_65f2761b": {
+        "node_name": "n2",
+        "cpu_cost": 132985007.69081514,
+        "output_bytes": 1909093
+      },
+      "s_c504af23": {
+        "node_name": "n3",
+        "cpu_cost": 72318553.00326489,
+        "output_bytes": 3829663
+      },
+      "s_03e1167c": {
+        "node_name": "n4",
+        "cpu_cost": 333526004.8086517,
+        "output_bytes": 2679998
+      },
+      "s_8c62dcbc": {
+        "node_name": "n5",
+        "cpu_cost": 477948590.0461288,
+        "output_bytes": 2796201
+      },
+      "s_f6b227de": {
+        "node_name": "n6",
+        "cpu_cost": 42090638.74618519,
+        "output_bytes": 1382026
+      },
+      "s_e59ba2bb": {
+        "node_name": "n7",
+        "cpu_cost": 147064194.64499992,
+        "output_bytes": 4600629
+      }
+    },
+    "edges": [
+      {
+        "from": "s_ea22db60",
+        "to": "s_03e1167c",
+        "comm_bytes": 1149190
+      },
+      {
+        "from": "s_ea22db60",
+        "to": "s_8c62dcbc",
+        "comm_bytes": 1013699
+      },
+      {
+        "from": "s_65f2761b",
+        "to": "s_c504af23",
+        "comm_bytes": 1711363
+      },
+      {
+        "from": "s_65f2761b",
+        "to": "s_03e1167c",
+        "comm_bytes": 3534564
+      },
+      {
+        "from": "s_c504af23",
+        "to": "s_8c62dcbc",
+        "comm_bytes": 1200678
+      },
+      {
+        "from": "s_03e1167c",
+        "to": "s_e59ba2bb",
+        "comm_bytes": 1947677
+      },
+      {
+        "from": "s_8c62dcbc",
+        "to": "s_f6b227de",
+        "comm_bytes": 1778969
+      }
+    ],
+    "critical": false,
+    "deadline": 745.1163450254118
+  },
+  "ind_2b868996": {
+    "task_id": "ind_2b868996",
+    "type": "independent",
+    "created_time": 284.0,
+    "vehicle": "21",
+    "size_bytes": 69965,
+    "cpu_cost": 13052499.583075847,
+    "critical": false,
+    "deadline": 442.6081959784601
+  },
+  "ind_5f7b2a42": {
+    "task_id": "ind_5f7b2a42",
+    "type": "independent",
+    "created_time": 290.0,
+    "vehicle": "24",
+    "size_bytes": 374289,
+    "cpu_cost": 18207261.375992525,
+    "critical": false,
+    "deadline": 403.6022443093298
+  },
+  "ind_5e9bc335": {
+    "task_id": "ind_5e9bc335",
+    "type": "independent",
+    "created_time": 299.0,
+    "vehicle": "17",
+    "size_bytes": 495518,
+    "cpu_cost": 99997186.05641092,
+    "critical": false,
+    "deadline": 405.94997735743834
+  },
+  "ind_e43f9439": {
+    "task_id": "ind_e43f9439",
+    "type": "independent",
+    "created_time": 303.0,
+    "vehicle": "25",
+    "size_bytes": 288231,
+    "cpu_cost": 37608589.66713011,
+    "critical": false,
+    "deadline": 449.0108290234942
+  },
+  "ind_15b49404": {
+    "task_id": "ind_15b49404",
+    "type": "independent",
+    "created_time": 303.0,
+    "vehicle": "29",
+    "size_bytes": 450386,
+    "cpu_cost": 9536912.739650365,
+    "critical": false,
+    "deadline": 385.07022562481575
+  },
+  "ind_7e680119": {
+    "task_id": "ind_7e680119",
+    "type": "independent",
+    "created_time": 318.0,
+    "vehicle": "28",
+    "size_bytes": 157552,
+    "cpu_cost": 46189736.514035426,
+    "critical": false,
+    "deadline": 369.0468860969549
+  },
+  "ind_b3202393": {
+    "task_id": "ind_b3202393",
+    "type": "independent",
+    "created_time": 328.0,
+    "vehicle": "26",
+    "size_bytes": 119690,
+    "cpu_cost": 21639505.82981938,
+    "critical": false,
+    "deadline": 388.503517125683
+  },
+  "ind_0dee62e4": {
+    "task_id": "ind_0dee62e4",
+    "type": "independent",
+    "created_time": 330.0,
+    "vehicle": "30",
+    "size_bytes": 350332,
+    "cpu_cost": 16811923.210293334,
+    "critical": false,
+    "deadline": 477.51345244804577
+  },
+  "ind_86fdfb96": {
+    "task_id": "ind_86fdfb96",
+    "type": "independent",
+    "created_time": 337.0,
+    "vehicle": "26",
+    "size_bytes": 229332,
+    "cpu_cost": 91930858.38212824,
+    "critical": false,
+    "deadline": 428.55046217353316
+  },
+  "ind_baa05d2b": {
+    "task_id": "ind_baa05d2b",
+    "type": "independent",
+    "created_time": 340.0,
+    "vehicle": "30",
+    "size_bytes": 475983,
+    "cpu_cost": 30639625.167754143,
+    "critical": false,
+    "deadline": 538.645691403889
+  },
+  "ind_1dd035fe": {
+    "task_id": "ind_1dd035fe",
+    "type": "independent",
+    "created_time": 342.0,
+    "vehicle": "33",
+    "size_bytes": 446543,
+    "cpu_cost": 76988530.2870537,
+    "critical": false,
+    "deadline": 397.34299902080187
+  },
+  "ind_0af46e26": {
+    "task_id": "ind_0af46e26",
+    "type": "independent",
+    "created_time": 351.0,
+    "vehicle": "24",
+    "size_bytes": 79781,
+    "cpu_cost": 22541598.76725452,
+    "critical": false,
+    "deadline": 425.4227496959792
+  },
+  "dep_d001cd26": {
+    "task_id": "dep_d001cd26",
+    "type": "dependent",
+    "created_time": 351.0,
+    "vehicle": "35",
+    "num_subtasks": 7,
+    "subtasks": {
+      "s_cbf8dc50": {
+        "node_name": "n0",
+        "cpu_cost": 490933240.8579687,
+        "output_bytes": 2537020
+      },
+      "s_e62cd06b": {
+        "node_name": "n1",
+        "cpu_cost": 136229805.27979472,
+        "output_bytes": 815010
+      },
+      "s_3ee8d006": {
+        "node_name": "n2",
+        "cpu_cost": 330306776.4215384,
+        "output_bytes": 3270153
+      },
+      "s_49e9bf82": {
+        "node_name": "n3",
+        "cpu_cost": 383617162.9205789,
+        "output_bytes": 2314746
+      },
+      "s_83c2ad25": {
+        "node_name": "n4",
+        "cpu_cost": 486241960.7228964,
+        "output_bytes": 2851005
+      },
+      "s_c8c12a93": {
+        "node_name": "n5",
+        "cpu_cost": 78296291.8147777,
+        "output_bytes": 628934
+      },
+      "s_c849e755": {
+        "node_name": "n6",
+        "cpu_cost": 391877562.373405,
+        "output_bytes": 3214782
+      }
+    },
+    "edges": [
+      {
+        "from": "s_cbf8dc50",
+        "to": "s_c849e755",
+        "comm_bytes": 4688533
+      },
+      {
+        "from": "s_e62cd06b",
+        "to": "s_49e9bf82",
+        "comm_bytes": 800899
+      },
+      {
+        "from": "s_49e9bf82",
+        "to": "s_83c2ad25",
+        "comm_bytes": 2517016
+      },
+      {
+        "from": "s_83c2ad25",
+        "to": "s_c849e755",
+        "comm_bytes": 3779656
+      }
+    ],
+    "critical": true,
+    "deadline": 376.4643308559748
+  },
+  "ind_875547a7": {
+    "task_id": "ind_875547a7",
+    "type": "independent",
+    "created_time": 368.0,
+    "vehicle": "24",
+    "size_bytes": 87348,
+    "cpu_cost": 9612734.469390148,
+    "critical": false,
+    "deadline": 436.6532767154798
+  },
+  "ind_0afeef04": {
+    "task_id": "ind_0afeef04",
+    "type": "independent",
+    "created_time": 372.0,
+    "vehicle": "32",
+    "size_bytes": 332241,
+    "cpu_cost": 73694877.6710708,
+    "critical": true,
+    "deadline": 379.0062683117164
+  },
+  "ind_442c1a8f": {
+    "task_id": "ind_442c1a8f",
+    "type": "independent",
+    "created_time": 375.0,
+    "vehicle": "34",
+    "size_bytes": 345917,
+    "cpu_cost": 42818389.38732878,
+    "critical": true,
+    "deadline": 381.3741283131163
+  },
+  "ind_439c3998": {
+    "task_id": "ind_439c3998",
+    "type": "independent",
+    "created_time": 378.0,
+    "vehicle": "36",
+    "size_bytes": 383522,
+    "cpu_cost": 18520141.393700432,
+    "critical": false,
+    "deadline": 520.5345486498201
+  },
+  "ind_404cb050": {
+    "task_id": "ind_404cb050",
+    "type": "independent",
+    "created_time": 381.0,
+    "vehicle": "36",
+    "size_bytes": 283728,
+    "cpu_cost": 95748687.9272078,
+    "critical": false,
+    "deadline": 413.76233409433064
+  },
+  "ind_2b88d57b": {
+    "task_id": "ind_2b88d57b",
+    "type": "independent",
+    "created_time": 382.0,
+    "vehicle": "35",
+    "size_bytes": 296447,
+    "cpu_cost": 77080734.12893756,
+    "critical": false,
+    "deadline": 444.10285360325616
+  },
+  "ind_9942f770": {
+    "task_id": "ind_9942f770",
+    "type": "independent",
+    "created_time": 392.0,
+    "vehicle": "29",
+    "size_bytes": 72359,
+    "cpu_cost": 13127187.932698641,
+    "critical": false,
+    "deadline": 508.6045192616025
+  },
+  "ind_5c385d07": {
+    "task_id": "ind_5c385d07",
+    "type": "independent",
+    "created_time": 401.0,
+    "vehicle": "36",
+    "size_bytes": 413051,
+    "cpu_cost": 70720250.51982403,
+    "critical": false,
+    "deadline": 559.9611693388928
+  },
+  "ind_4e615596": {
+    "task_id": "ind_4e615596",
+    "type": "independent",
+    "created_time": 404.0,
+    "vehicle": "35",
+    "size_bytes": 362992,
+    "cpu_cost": 12534366.746421473,
+    "critical": false,
+    "deadline": 578.7968740133006
+  },
+  "ind_8e98db48": {
+    "task_id": "ind_8e98db48",
+    "type": "independent",
+    "created_time": 405.0,
+    "vehicle": "36",
+    "size_bytes": 291319,
+    "cpu_cost": 35483650.05085197,
+    "critical": true,
+    "deadline": 407.877162677677
+  },
+  "dep_1610bd85": {
+    "task_id": "dep_1610bd85",
+    "type": "dependent",
+    "created_time": 405.0,
+    "vehicle": "37",
+    "num_subtasks": 4,
+    "subtasks": {
+      "s_660e4df8": {
+        "node_name": "n0",
+        "cpu_cost": 481030149.21400964,
+        "output_bytes": 2448916
+      },
+      "s_31844bfb": {
+        "node_name": "n1",
+        "cpu_cost": 244426754.17405146,
+        "output_bytes": 1365533
+      },
+      "s_b32338a4": {
+        "node_name": "n2",
+        "cpu_cost": 199370542.62367538,
+        "output_bytes": 4296253
+      },
+      "s_1484ab2a": {
+        "node_name": "n3",
+        "cpu_cost": 65512441.8051757,
+        "output_bytes": 248980
+      }
+    },
+    "edges": [
+      {
+        "from": "s_660e4df8",
+        "to": "s_b32338a4",
+        "comm_bytes": 4089584
+      }
+    ],
+    "critical": false,
+    "deadline": 1101.9385722302973
+  },
+  "ind_b1c7776b": {
+    "task_id": "ind_b1c7776b",
+    "type": "independent",
+    "created_time": 406.0,
+    "vehicle": "33",
+    "size_bytes": 410259,
+    "cpu_cost": 18132525.55449972,
+    "critical": false,
+    "deadline": 529.0263091204706
+  },
+  "ind_19225168": {
+    "task_id": "ind_19225168",
+    "type": "independent",
+    "created_time": 406.0,
+    "vehicle": "35",
+    "size_bytes": 59977,
+    "cpu_cost": 18825492.828172054,
+    "critical": false,
+    "deadline": 500.3729797605756
+  },
+  "ind_f9c3f06b": {
+    "task_id": "ind_f9c3f06b",
+    "type": "independent",
+    "created_time": 411.0,
+    "vehicle": "41",
+    "size_bytes": 475904,
+    "cpu_cost": 82996515.72594951,
+    "critical": false,
+    "deadline": 514.4165141793037
+  },
+  "ind_f47472d6": {
+    "task_id": "ind_f47472d6",
+    "type": "independent",
+    "created_time": 416.0,
+    "vehicle": "39",
+    "size_bytes": 329157,
+    "cpu_cost": 98486396.36214054,
+    "critical": true,
+    "deadline": 418.606649741591
+  },
+  "ind_cf8a09f7": {
+    "task_id": "ind_cf8a09f7",
+    "type": "independent",
+    "created_time": 421.0,
+    "vehicle": "38",
+    "size_bytes": 91711,
+    "cpu_cost": 89256514.81659901,
+    "critical": false,
+    "deadline": 606.3545393046679
+  },
+  "ind_11096371": {
+    "task_id": "ind_11096371",
+    "type": "independent",
+    "created_time": 428.0,
+    "vehicle": "30",
+    "size_bytes": 370596,
+    "cpu_cost": 67954463.08866319,
+    "critical": true,
+    "deadline": 435.2536335730799
+  },
+  "ind_c9025163": {
+    "task_id": "ind_c9025163",
+    "type": "independent",
+    "created_time": 428.0,
+    "vehicle": "32",
+    "size_bytes": 305022,
+    "cpu_cost": 98397956.40939802,
+    "critical": false,
+    "deadline": 572.2512680782945
+  },
+  "ind_f8d6275f": {
+    "task_id": "ind_f8d6275f",
+    "type": "independent",
+    "created_time": 441.0,
+    "vehicle": "41",
+    "size_bytes": 389591,
+    "cpu_cost": 87650882.16563557,
+    "critical": false,
+    "deadline": 528.9188909829066
+  },
+  "dep_2003f619": {
+    "task_id": "dep_2003f619",
+    "type": "dependent",
+    "created_time": 446.0,
+    "vehicle": "44",
+    "num_subtasks": 12,
+    "subtasks": {
+      "s_b4caddfc": {
+        "node_name": "n0",
+        "cpu_cost": 444915654.5367054,
+        "output_bytes": 4867080
+      },
+      "s_c6b9d087": {
+        "node_name": "n1",
+        "cpu_cost": 312636798.7641212,
+        "output_bytes": 1619896
+      },
+      "s_091ca88a": {
+        "node_name": "n2",
+        "cpu_cost": 334482305.1432038,
+        "output_bytes": 2694732
+      },
+      "s_19b2d997": {
+        "node_name": "n3",
+        "cpu_cost": 98095894.95306548,
+        "output_bytes": 2944145
+      },
+      "s_b001be68": {
+        "node_name": "n4",
+        "cpu_cost": 477780213.9548408,
+        "output_bytes": 2360834
+      },
+      "s_4374eb7e": {
+        "node_name": "n5",
+        "cpu_cost": 161867177.82411057,
+        "output_bytes": 2527429
+      },
+      "s_7f4d7043": {
+        "node_name": "n6",
+        "cpu_cost": 220342734.56245044,
+        "output_bytes": 817914
+      },
+      "s_268fb1fc": {
+        "node_name": "n7",
+        "cpu_cost": 199060304.6285713,
+        "output_bytes": 4074660
+      },
+      "s_b91874ca": {
+        "node_name": "n8",
+        "cpu_cost": 355793080.7317383,
+        "output_bytes": 971105
+      },
+      "s_9cfffe1c": {
+        "node_name": "n9",
+        "cpu_cost": 145623244.96967483,
+        "output_bytes": 3113195
+      },
+      "s_d863aef4": {
+        "node_name": "n10",
+        "cpu_cost": 402483606.75474846,
+        "output_bytes": 1699436
+      },
+      "s_2fa47deb": {
+        "node_name": "n11",
+        "cpu_cost": 49475789.88923444,
+        "output_bytes": 4987818
+      }
+    },
+    "edges": [
+      {
+        "from": "s_b4caddfc",
+        "to": "s_091ca88a",
+        "comm_bytes": 2639495
+      },
+      {
+        "from": "s_b4caddfc",
+        "to": "s_b001be68",
+        "comm_bytes": 704428
+      },
+      {
+        "from": "s_b4caddfc",
+        "to": "s_7f4d7043",
+        "comm_bytes": 3365409
+      },
+      {
+        "from": "s_b4caddfc",
+        "to": "s_9cfffe1c",
+        "comm_bytes": 1909538
+      },
+      {
+        "from": "s_091ca88a",
+        "to": "s_19b2d997",
+        "comm_bytes": 4940422
+      },
+      {
+        "from": "s_091ca88a",
+        "to": "s_d863aef4",
+        "comm_bytes": 4771614
+      },
+      {
+        "from": "s_19b2d997",
+        "to": "s_b001be68",
+        "comm_bytes": 3710410
+      },
+      {
+        "from": "s_19b2d997",
+        "to": "s_7f4d7043",
+        "comm_bytes": 4957737
+      },
+      {
+        "from": "s_19b2d997",
+        "to": "s_268fb1fc",
+        "comm_bytes": 4426698
+      },
+      {
+        "from": "s_19b2d997",
+        "to": "s_d863aef4",
+        "comm_bytes": 4396400
+      },
+      {
+        "from": "s_b001be68",
+        "to": "s_7f4d7043",
+        "comm_bytes": 2413030
+      },
+      {
+        "from": "s_b001be68",
+        "to": "s_268fb1fc",
+        "comm_bytes": 3987999
+      },
+      {
+        "from": "s_4374eb7e",
+        "to": "s_b91874ca",
+        "comm_bytes": 4195448
+      },
+      {
+        "from": "s_4374eb7e",
+        "to": "s_d863aef4",
+        "comm_bytes": 3161724
+      },
+      {
+        "from": "s_7f4d7043",
+        "to": "s_b91874ca",
+        "comm_bytes": 1167524
+      },
+      {
+        "from": "s_268fb1fc",
+        "to": "s_d863aef4",
+        "comm_bytes": 3478163
+      },
+      {
+        "from": "s_b91874ca",
+        "to": "s_d863aef4",
+        "comm_bytes": 212813
+      }
+    ],
+    "critical": false,
+    "deadline": 2572.5984361610354
+  },
+  "ind_3e5a49cb": {
+    "task_id": "ind_3e5a49cb",
+    "type": "independent",
+    "created_time": 447.0,
+    "vehicle": "44",
+    "size_bytes": 349945,
+    "cpu_cost": 36814848.370825,
+    "critical": false,
+    "deadline": 476.34796417239255
+  },
+  "ind_c5b5d4bc": {
+    "task_id": "ind_c5b5d4bc",
+    "type": "independent",
+    "created_time": 452.0,
+    "vehicle": "45",
+    "size_bytes": 439742,
+    "cpu_cost": 58967878.069908,
+    "critical": false,
+    "deadline": 596.4628758838219
+  },
+  "ind_38db0401": {
+    "task_id": "ind_38db0401",
+    "type": "independent",
+    "created_time": 455.0,
+    "vehicle": "42",
+    "size_bytes": 244495,
+    "cpu_cost": 67494285.25843218,
+    "critical": false,
+    "deadline": 552.0116368590717
+  },
+  "ind_13438fb7": {
+    "task_id": "ind_13438fb7",
+    "type": "independent",
+    "created_time": 461.0,
+    "vehicle": "44",
+    "size_bytes": 63631,
+    "cpu_cost": 23548979.52638387,
+    "critical": true,
+    "deadline": 464.3229605814672
+  },
+  "ind_fb5dc07b": {
+    "task_id": "ind_fb5dc07b",
+    "type": "independent",
+    "created_time": 464.0,
+    "vehicle": "39",
+    "size_bytes": 150365,
+    "cpu_cost": 68325953.73850104,
+    "critical": false,
+    "deadline": 502.22397824780074
+  },
+  "ind_504f5780": {
+    "task_id": "ind_504f5780",
+    "type": "independent",
+    "created_time": 464.0,
+    "vehicle": "42",
+    "size_bytes": 197798,
+    "cpu_cost": 45359337.31161139,
+    "critical": false,
+    "deadline": 542.0492683239387
+  },
+  "ind_5cb9e1b5": {
+    "task_id": "ind_5cb9e1b5",
+    "type": "independent",
+    "created_time": 465.0,
+    "vehicle": "41",
+    "size_bytes": 301987,
+    "cpu_cost": 46172260.390531994,
+    "critical": false,
+    "deadline": 546.4909721079773
+  },
+  "ind_84807e7b": {
+    "task_id": "ind_84807e7b",
+    "type": "independent",
+    "created_time": 470.0,
+    "vehicle": "44",
+    "size_bytes": 291068,
+    "cpu_cost": 83919274.49116303,
+    "critical": true,
+    "deadline": 475.2474881441329
+  },
+  "ind_ea96a5db": {
+    "task_id": "ind_ea96a5db",
+    "type": "independent",
+    "created_time": 471.0,
+    "vehicle": "41",
+    "size_bytes": 300386,
+    "cpu_cost": 12814097.846879905,
+    "critical": false,
+    "deadline": 665.994631019801
+  },
+  "ind_b85021dc": {
+    "task_id": "ind_b85021dc",
+    "type": "independent",
+    "created_time": 473.0,
+    "vehicle": "46",
+    "size_bytes": 128723,
+    "cpu_cost": 85312144.04036085,
+    "critical": false,
+    "deadline": 557.3623952097589
+  },
+  "dep_6521ca0b": {
+    "task_id": "dep_6521ca0b",
+    "type": "dependent",
+    "created_time": 476.0,
+    "vehicle": "45",
+    "num_subtasks": 12,
+    "subtasks": {
+      "s_fdca6918": {
+        "node_name": "n0",
+        "cpu_cost": 401526256.58476377,
+        "output_bytes": 760164
+      },
+      "s_56b3f0a0": {
+        "node_name": "n1",
+        "cpu_cost": 409803312.0801201,
+        "output_bytes": 339690
+      },
+      "s_f1e33877": {
+        "node_name": "n2",
+        "cpu_cost": 279044351.0053207,
+        "output_bytes": 4040624
+      },
+      "s_e8bf1036": {
+        "node_name": "n3",
+        "cpu_cost": 70614932.35860083,
+        "output_bytes": 3623564
+      },
+      "s_2bd743ee": {
+        "node_name": "n4",
+        "cpu_cost": 409667171.58885187,
+        "output_bytes": 3744137
+      },
+      "s_328eb9d9": {
+        "node_name": "n5",
+        "cpu_cost": 299454301.2491796,
+        "output_bytes": 713366
+      },
+      "s_50e08f07": {
+        "node_name": "n6",
+        "cpu_cost": 176797461.30252382,
+        "output_bytes": 2945499
+      },
+      "s_24b6f9f0": {
+        "node_name": "n7",
+        "cpu_cost": 175773922.3640351,
+        "output_bytes": 3175490
+      },
+      "s_1c3b2b83": {
+        "node_name": "n8",
+        "cpu_cost": 123373774.67088862,
+        "output_bytes": 791728
+      },
+      "s_79b97d4c": {
+        "node_name": "n9",
+        "cpu_cost": 371643579.88174623,
+        "output_bytes": 1267182
+      },
+      "s_7f86fcac": {
+        "node_name": "n10",
+        "cpu_cost": 213065094.79474923,
+        "output_bytes": 2354672
+      },
+      "s_9c9adb2b": {
+        "node_name": "n11",
+        "cpu_cost": 477587397.16939765,
+        "output_bytes": 230664
+      }
+    },
+    "edges": [
+      {
+        "from": "s_fdca6918",
+        "to": "s_2bd743ee",
+        "comm_bytes": 2813614
+      },
+      {
+        "from": "s_fdca6918",
+        "to": "s_50e08f07",
+        "comm_bytes": 2700275
+      },
+      {
+        "from": "s_56b3f0a0",
+        "to": "s_328eb9d9",
+        "comm_bytes": 1006063
+      },
+      {
+        "from": "s_56b3f0a0",
+        "to": "s_79b97d4c",
+        "comm_bytes": 2393770
+      },
+      {
+        "from": "s_f1e33877",
+        "to": "s_50e08f07",
+        "comm_bytes": 2670913
+      },
+      {
+        "from": "s_f1e33877",
+        "to": "s_9c9adb2b",
+        "comm_bytes": 1969238
+      },
+      {
+        "from": "s_e8bf1036",
+        "to": "s_328eb9d9",
+        "comm_bytes": 4218702
+      },
+      {
+        "from": "s_e8bf1036",
+        "to": "s_1c3b2b83",
+        "comm_bytes": 3668182
+      },
+      {
+        "from": "s_2bd743ee",
+        "to": "s_328eb9d9",
+        "comm_bytes": 4910768
+      },
+      {
+        "from": "s_2bd743ee",
+        "to": "s_24b6f9f0",
+        "comm_bytes": 1766527
+      },
+      {
+        "from": "s_2bd743ee",
+        "to": "s_7f86fcac",
+        "comm_bytes": 4113817
+      },
+      {
+        "from": "s_2bd743ee",
+        "to": "s_9c9adb2b",
+        "comm_bytes": 4265005
+      },
+      {
+        "from": "s_50e08f07",
+        "to": "s_24b6f9f0",
+        "comm_bytes": 2553926
+      },
+      {
+        "from": "s_50e08f07",
+        "to": "s_7f86fcac",
+        "comm_bytes": 2453633
+      },
+      {
+        "from": "s_1c3b2b83",
+        "to": "s_79b97d4c",
+        "comm_bytes": 1076132
+      },
+      {
+        "from": "s_1c3b2b83",
+        "to": "s_7f86fcac",
+        "comm_bytes": 3298376
+      }
+    ],
+    "critical": true,
+    "deadline": 577.4706694145243
+  },
+  "ind_c0a2b60b": {
+    "task_id": "ind_c0a2b60b",
+    "type": "independent",
+    "created_time": 483.0,
+    "vehicle": "48",
+    "size_bytes": 187513,
+    "cpu_cost": 83740890.5157657,
+    "critical": false,
+    "deadline": 603.937687590104
+  },
+  "ind_27d74b4a": {
+    "task_id": "ind_27d74b4a",
+    "type": "independent",
+    "created_time": 487.0,
+    "vehicle": "42",
+    "size_bytes": 405586,
+    "cpu_cost": 26398538.381239247,
+    "critical": false,
+    "deadline": 572.1955686754623
+  },
+  "ind_88af06dc": {
+    "task_id": "ind_88af06dc",
+    "type": "independent",
+    "created_time": 490.0,
+    "vehicle": "38",
+    "size_bytes": 338496,
+    "cpu_cost": 16082096.669597875,
+    "critical": false,
+    "deadline": 651.1232391523253
+  },
+  "ind_43ae3723": {
+    "task_id": "ind_43ae3723",
+    "type": "independent",
+    "created_time": 490.0,
+    "vehicle": "46",
+    "size_bytes": 252066,
+    "cpu_cost": 81285226.6963365,
+    "critical": true,
+    "deadline": 497.0382116609192
+  },
+  "dep_cb6587a7": {
+    "task_id": "dep_cb6587a7",
+    "type": "dependent",
+    "created_time": 492.0,
+    "vehicle": "41",
+    "num_subtasks": 7,
+    "subtasks": {
+      "s_e3044ec3": {
+        "node_name": "n0",
+        "cpu_cost": 261435841.53055856,
+        "output_bytes": 3336724
+      },
+      "s_acd85f80": {
+        "node_name": "n1",
+        "cpu_cost": 225259881.4609255,
+        "output_bytes": 3540111
+      },
+      "s_8b5d6451": {
+        "node_name": "n2",
+        "cpu_cost": 449725218.0951633,
+        "output_bytes": 3279701
+      },
+      "s_f3e2f6b7": {
+        "node_name": "n3",
+        "cpu_cost": 234146701.12881115,
+        "output_bytes": 2347673
+      },
+      "s_455e092b": {
+        "node_name": "n4",
+        "cpu_cost": 163392276.65505362,
+        "output_bytes": 2590892
+      },
+      "s_6f9ffeb9": {
+        "node_name": "n5",
+        "cpu_cost": 198907461.23539558,
+        "output_bytes": 2763781
+      },
+      "s_7672a932": {
+        "node_name": "n6",
+        "cpu_cost": 88862369.63386962,
+        "output_bytes": 4719689
+      }
+    },
+    "edges": [
+      {
+        "from": "s_e3044ec3",
+        "to": "s_7672a932",
+        "comm_bytes": 2405777
+      },
+      {
+        "from": "s_f3e2f6b7",
+        "to": "s_455e092b",
+        "comm_bytes": 1178662
+      },
+      {
+        "from": "s_f3e2f6b7",
+        "to": "s_6f9ffeb9",
+        "comm_bytes": 4180991
+      }
+    ],
+    "critical": false,
+    "deadline": 1597.2218954207337
+  },
+  "ind_8309e347": {
+    "task_id": "ind_8309e347",
+    "type": "independent",
+    "created_time": 497.0,
+    "vehicle": "47",
+    "size_bytes": 122305,
+    "cpu_cost": 60223198.76298223,
+    "critical": true,
+    "deadline": 502.7169649607786
+  },
+  "ind_64ee4096": {
+    "task_id": "ind_64ee4096",
+    "type": "independent",
+    "created_time": 501.0,
+    "vehicle": "49",
+    "size_bytes": 224841,
+    "cpu_cost": 23800815.17331926,
+    "critical": false,
+    "deadline": 592.7672236199262
+  },
+  "ind_489a4cb4": {
+    "task_id": "ind_489a4cb4",
+    "type": "independent",
+    "created_time": 502.0,
+    "vehicle": "38",
+    "size_bytes": 389680,
+    "cpu_cost": 78707297.02076304,
+    "critical": false,
+    "deadline": 582.9292934646714
+  },
+  "ind_34ef5515": {
+    "task_id": "ind_34ef5515",
+    "type": "independent",
+    "created_time": 503.0,
+    "vehicle": "44",
+    "size_bytes": 342917,
+    "cpu_cost": 2770566.21296399,
+    "critical": false,
+    "deadline": 632.2597395278083
+  },
+  "ind_1cf765ef": {
+    "task_id": "ind_1cf765ef",
+    "type": "independent",
+    "created_time": 509.0,
+    "vehicle": "47",
+    "size_bytes": 59090,
+    "cpu_cost": 31941002.087746218,
+    "critical": false,
+    "deadline": 561.9249929821057
+  },
+  "dep_04a7cdb5": {
+    "task_id": "dep_04a7cdb5",
+    "type": "dependent",
+    "created_time": 515.0,
+    "vehicle": "47",
+    "num_subtasks": 7,
+    "subtasks": {
+      "s_ef2af537": {
+        "node_name": "n0",
+        "cpu_cost": 180000378.00587484,
+        "output_bytes": 2965523
+      },
+      "s_e7818ecf": {
+        "node_name": "n1",
+        "cpu_cost": 431999953.35574764,
+        "output_bytes": 4411927
+      },
+      "s_ac7937f5": {
+        "node_name": "n2",
+        "cpu_cost": 343267668.02247864,
+        "output_bytes": 2053859
+      },
+      "s_69d8f967": {
+        "node_name": "n3",
+        "cpu_cost": 391471895.79569894,
+        "output_bytes": 2445296
+      },
+      "s_5037f6bc": {
+        "node_name": "n4",
+        "cpu_cost": 373888828.1789835,
+        "output_bytes": 3134633
+      },
+      "s_2da7e2e9": {
+        "node_name": "n5",
+        "cpu_cost": 369837465.27340096,
+        "output_bytes": 2378107
+      },
+      "s_c38bd562": {
+        "node_name": "n6",
+        "cpu_cost": 287695860.70480454,
+        "output_bytes": 2979380
+      }
+    },
+    "edges": [
+      {
+        "from": "s_e7818ecf",
+        "to": "s_ac7937f5",
+        "comm_bytes": 4227228
+      },
+      {
+        "from": "s_e7818ecf",
+        "to": "s_5037f6bc",
+        "comm_bytes": 1692300
+      },
+      {
+        "from": "s_e7818ecf",
+        "to": "s_2da7e2e9",
+        "comm_bytes": 4511067
+      },
+      {
+        "from": "s_e7818ecf",
+        "to": "s_c38bd562",
+        "comm_bytes": 2095583
+      },
+      {
+        "from": "s_ac7937f5",
+        "to": "s_2da7e2e9",
+        "comm_bytes": 4374786
+      },
+      {
+        "from": "s_ac7937f5",
+        "to": "s_c38bd562",
+        "comm_bytes": 2688483
+      },
+      {
+        "from": "s_5037f6bc",
+        "to": "s_c38bd562",
+        "comm_bytes": 344433
+      }
+    ],
+    "critical": true,
+    "deadline": 570.5880409764845
+  },
+  "ind_43b4b349": {
+    "task_id": "ind_43b4b349",
+    "type": "independent",
+    "created_time": 526.0,
+    "vehicle": "46",
+    "size_bytes": 166347,
+    "cpu_cost": 88064713.98651001,
+    "critical": false,
+    "deadline": 710.0662231766522
+  },
+  "ind_c04b6bbb": {
+    "task_id": "ind_c04b6bbb",
+    "type": "independent",
+    "created_time": 532.0,
+    "vehicle": "48",
+    "size_bytes": 370567,
+    "cpu_cost": 51469854.05019781,
+    "critical": false,
+    "deadline": 575.8548011532557
+  },
+  "ind_a4bca275": {
+    "task_id": "ind_a4bca275",
+    "type": "independent",
+    "created_time": 532.0,
+    "vehicle": "49",
+    "size_bytes": 119445,
+    "cpu_cost": 99895322.79436585,
+    "critical": false,
+    "deadline": 698.9231468338112
+  },
+  "ind_c6fe0170": {
+    "task_id": "ind_c6fe0170",
+    "type": "independent",
+    "created_time": 538.0,
+    "vehicle": "49",
+    "size_bytes": 434594,
+    "cpu_cost": 67247414.46778983,
+    "critical": false,
+    "deadline": 592.2520661054799
+  },
+  "ind_1a82472d": {
+    "task_id": "ind_1a82472d",
+    "type": "independent",
+    "created_time": 560.0,
+    "vehicle": "47",
+    "size_bytes": 324259,
+    "cpu_cost": 68703044.87735687,
+    "critical": false,
+    "deadline": 749.6746226575932
+  },
+  "ind_033fd5ce": {
+    "task_id": "ind_033fd5ce",
+    "type": "independent",
+    "created_time": 561.0,
+    "vehicle": "47",
+    "size_bytes": 90031,
+    "cpu_cost": 11091181.538421655,
+    "critical": false,
+    "deadline": 664.8654267315832
+  },
+  "ind_57a7403a": {
+    "task_id": "ind_57a7403a",
+    "type": "independent",
+    "created_time": 566.0,
+    "vehicle": "49",
+    "size_bytes": 221435,
+    "cpu_cost": 30126371.152950678,
+    "critical": false,
+    "deadline": 656.8396191930171
+  },
+  "dep_452016d6": {
+    "task_id": "dep_452016d6",
+    "type": "dependent",
+    "created_time": 577.0,
+    "vehicle": "47",
+    "num_subtasks": 7,
+    "subtasks": {
+      "s_0924da48": {
+        "node_name": "n0",
+        "cpu_cost": 24811224.181597523,
+        "output_bytes": 2957270
+      },
+      "s_0099fb03": {
+        "node_name": "n1",
+        "cpu_cost": 359724453.2911124,
+        "output_bytes": 4040084
+      },
+      "s_2111590c": {
+        "node_name": "n2",
+        "cpu_cost": 300255661.17200196,
+        "output_bytes": 674592
+      },
+      "s_e08ac195": {
+        "node_name": "n3",
+        "cpu_cost": 69291477.23360226,
+        "output_bytes": 1438846
+      },
+      "s_1c4c6618": {
+        "node_name": "n4",
+        "cpu_cost": 349743374.1998403,
+        "output_bytes": 847622
+      },
+      "s_1498463c": {
+        "node_name": "n5",
+        "cpu_cost": 354775832.97128606,
+        "output_bytes": 4008717
+      },
+      "s_2fbb9921": {
+        "node_name": "n6",
+        "cpu_cost": 184882341.34604162,
+        "output_bytes": 2851072
+      }
+    },
+    "edges": [
+      {
+        "from": "s_0924da48",
+        "to": "s_e08ac195",
+        "comm_bytes": 4397824
+      },
+      {
+        "from": "s_0924da48",
+        "to": "s_1498463c",
+        "comm_bytes": 1525733
+      },
+      {
+        "from": "s_0099fb03",
+        "to": "s_e08ac195",
+        "comm_bytes": 2704786
+      },
+      {
+        "from": "s_2111590c",
+        "to": "s_1498463c",
+        "comm_bytes": 1316312
+      },
+      {
+        "from": "s_e08ac195",
+        "to": "s_1c4c6618",
+        "comm_bytes": 2545723
+      },
+      {
+        "from": "s_e08ac195",
+        "to": "s_1498463c",
+        "comm_bytes": 1170907
+      }
+    ],
+    "critical": false,
+    "deadline": 1457.0392171424164
+  },
+  "ind_11e12419": {
+    "task_id": "ind_11e12419",
+    "type": "independent",
+    "created_time": 586.0,
+    "vehicle": "48",
+    "size_bytes": 439276,
+    "cpu_cost": 99121672.531739,
+    "critical": false,
+    "deadline": 657.1785545933787
+  },
+  "ind_86f49e5d": {
+    "task_id": "ind_86f49e5d",
+    "type": "independent",
+    "created_time": 594.0,
+    "vehicle": "48",
+    "size_bytes": 281652,
+    "cpu_cost": 9272077.482781138,
+    "critical": false,
+    "deadline": 669.8078258100364
+  },
+  "ind_b24e74a1": {
+    "task_id": "ind_b24e74a1",
+    "type": "independent",
+    "created_time": 599.0,
+    "vehicle": "49",
+    "size_bytes": 55043,
+    "cpu_cost": 66289777.30442048,
+    "critical": false,
+    "deadline": 732.1727119379933
+  },
+  "dep_bdd658b2": {
+    "task_id": "dep_bdd658b2",
+    "type": "dependent",
+    "created_time": 608.0,
+    "vehicle": "49",
+    "num_subtasks": 7,
+    "subtasks": {
+      "s_b2b88970": {
+        "node_name": "n0",
+        "cpu_cost": 342531917.4103518,
+        "output_bytes": 3322882
+      },
+      "s_9228dbdb": {
+        "node_name": "n1",
+        "cpu_cost": 356678157.9429146,
+        "output_bytes": 4599457
+      },
+      "s_0ff96552": {
+        "node_name": "n2",
+        "cpu_cost": 367522904.7913923,
+        "output_bytes": 4850952
+      },
+      "s_a93269a5": {
+        "node_name": "n3",
+        "cpu_cost": 240009570.7146548,
+        "output_bytes": 4279961
+      },
+      "s_501a7375": {
+        "node_name": "n4",
+        "cpu_cost": 498509276.7502357,
+        "output_bytes": 4993232
+      },
+      "s_c2edc1dd": {
+        "node_name": "n5",
+        "cpu_cost": 307623064.58238184,
+        "output_bytes": 1326033
+      },
+      "s_092b6421": {
+        "node_name": "n6",
+        "cpu_cost": 442188876.53380597,
+        "output_bytes": 678876
+      }
+    },
+    "edges": [
+      {
+        "from": "s_0ff96552",
+        "to": "s_a93269a5",
+        "comm_bytes": 543230
+      },
+      {
+        "from": "s_0ff96552",
+        "to": "s_c2edc1dd",
+        "comm_bytes": 1855665
+      },
+      {
+        "from": "s_a93269a5",
+        "to": "s_c2edc1dd",
+        "comm_bytes": 3921155
+      }
+    ],
+    "critical": false,
+    "deadline": 1848.2363556641776
+  }
+}
